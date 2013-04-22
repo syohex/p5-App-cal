@@ -1,6 +1,6 @@
 requires 'Calendar::Simple';
 requires 'Calendar::Japanese::Holiday';
-requires 'Calendar::MoreUtils';
+requires 'List::MoreUtils';
 requires 'Encode::Locale';
 
 on test => sub {
