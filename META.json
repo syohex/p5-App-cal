@@ -1,5 +1,5 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "calender utiltity for Japanese people",
    "author" : [
       "Syohei YOSHIDA <syohex@gmail.com>"
    ],
@@ -43,9 +43,9 @@
       "runtime" : {
          "requires" : {
             "Calendar::Japanese::Holiday" : "0",
-            "Calendar::MoreUtils" : "0",
             "Calendar::Simple" : "0",
             "Encode::Locale" : "0",
+            "List::MoreUtils" : "0",
             "perl" : "5.008005"
          }
       },
