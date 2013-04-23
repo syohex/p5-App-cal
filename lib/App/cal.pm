@@ -162,7 +162,7 @@ sub _validate {
     my $self = shift;
 
     my $year_undefined;
-    if ($self->{year}) {
+    if (exists $self->{year}) {
         my $year = $self->{year};
         unless ($year >= 0) {
             Carp::croak("'year' option should >= 0($year)");
@@ -172,7 +172,7 @@ sub _validate {
         $self->{year} = (localtime)[5] + 1900;
     }
 
-    if ($self->{month}) {
+    if (exists $self->{month}) {
         my $mon = $self->{month};
         unless ($mon >= 1 && $mon <= 12) {
             Carp::croak("Invalid month(0 <= month <= 12)");
