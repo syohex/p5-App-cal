@@ -6,4 +6,6 @@
 /nytprof.out
 /nytprof/
 /Build
-
+/blib/
+/MYMETA.json
+/MYMETA.yml
